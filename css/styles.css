@@ -292,7 +292,7 @@ body {
 
 .thumb {
     display: flex;
-    outline: 1px solid tomato;
+    /* outline: 1px solid tomato; */
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
@@ -306,8 +306,8 @@ body {
 .benefits-icon {
     width: 70px;
     height: 70px;
-    fill: currentColor;
-    outline: 1px solid green;
+    /* fill: currentColor; */
+    /* outline: 1px solid green; */
     /* align-items: center;
     justify-content: center; */
 }
