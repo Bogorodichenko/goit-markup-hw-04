@@ -479,6 +479,65 @@ body {
     fill: #FFFFFF;
 }
 
+/* ПОСТІЙНІ КЛІЄНТИ */
+.clients {
+    background-color: var(--primary-background-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
+.clients-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-title-color);
+}
+
+.clients-logo-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.logo-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+}
+
+.logo-link:hover,
+.logo-link:focus {
+    border: 1px solid var(--acent-color);
+}
+
+.logo-link:hover .logo-icon,
+.logo-link:focus .logo-icon {
+    fill: var(--acent-color);
+}
+
+
 /* ФУТЕР */
 .footer {
     background-color: #2F303A;
