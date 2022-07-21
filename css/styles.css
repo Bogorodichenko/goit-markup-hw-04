@@ -436,6 +436,37 @@ body {
     margin-top: 0;
 }
 
+/* ІКОНКИ СОЦМЕРЕЖ */
+
+.socialmedia-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    outline: red;
+}
+
+.social-item {}
+
+.social-link {
+    display: block;
+    width: 44px;
+    height: 44px;
+    background-color: var(--primary-background-color);
+    border-radius: 50%;
+    /* outline: blue; */
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    outline: tomato;
+}
+
+
 /* ФУТЕР */
 .footer {
     background-color: #2F303A;
