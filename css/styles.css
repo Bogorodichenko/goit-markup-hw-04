@@ -290,6 +290,28 @@ body {
     margin-right: 0px;
 }
 
+.thumb {
+    display: flex;
+    outline: 1px solid tomato;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    background-color: #F5F4FA;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.benefits-icon {
+    width: 70px;
+    height: 70px;
+    fill: currentColor;
+    outline: 1px solid green;
+    /* align-items: center;
+    justify-content: center; */
+}
+
 .benefits-title {
     color: var(--text-title-color);
     font-size: 14px;
